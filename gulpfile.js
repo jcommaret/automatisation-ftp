@@ -38,7 +38,7 @@ gulp.task('ftp-deploy', function() {
 });
 /**
  * Tache d'uplate en temps réel des fichiers sur le serveur.
- * Regarde les changements locaux sur le serveur et  copies les nouveaux fichier sur le serveur.
+ * Regarde les changements locaux sur le serveur et  copies les nouveaux fichier sur le serveur. 
  * Usage: `FTP_USER=someuser FTP_PWD=somepwd gulp ftp-deploy-watch`
  */
 gulp.task('ftp-deploy-watch', function() {
